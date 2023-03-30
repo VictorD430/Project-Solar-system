@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import Header from './components/Header';
 import SolarSystem from './components/SolarSystem';
-import Title from './components/Title';
 // iniciando projeto
 
 class App extends React.Component {
