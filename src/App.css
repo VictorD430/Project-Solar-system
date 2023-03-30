@@ -1,3 +1,58 @@
-.App {
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("./images/background.png");
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+  font-size: 3rem;
+  margin: 45px 0 30px;
   text-align: center;
+}
+
+p, h2 {
+  font-size: 2rem;
+  margin: 50px;
+  padding: 20px;
+  text-align: center;
+}
+
+.planets {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 30px 80px;
+}
+
+.planet-card {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.planet-card div {
+  display: flex;
+}
+
+img {
+  width: 100%;
+}
+
+.missions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.mission-card {
+  border: 3px solid red;
+  border-radius: 5px;
+  margin: 10px 20px;
+  padding: 10px;
+  width: 20%;
 }
